@@ -1,0 +1,13 @@
+.navbar-nav {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+
+.navbar {
+      background-color: #3A405A;
+}
+
+#landing {
+      background-color: #AEC5EB;
+}
