@@ -12,64 +12,55 @@ body {
   background-color: #aec5eb;
 }
 
-/* Sizing */
-.h-screen {
-  height: 100vh;
+#profile {
+  border-radius: 50%;
 }
 
-.h-90vh {
-  height: 90vh;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-250px {
-  width: 250px;
-}
-
-.h-250px {
-  height: 250px;
-}
-
-/* Positioning */
-
-.relative {
-  position: relative;
-}
-
-/* Font Sizing */
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
+.profile-p {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
 }
