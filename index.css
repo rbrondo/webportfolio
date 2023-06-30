@@ -1,13 +1,21 @@
-.navbar-nav {
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
 
 .navbar {
-      background-color: #3A405A;
+  background-color: #3a405a;
 }
 
 #landing {
-      background-color: #AEC5EB;
+  background-color: #aec5eb;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
 }
